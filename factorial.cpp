@@ -2,6 +2,8 @@
 #include<iostream>
 
 int factorial(int n){
+    int a;
+    int b;
     if(n<0){
         std::cout<<"enter a positive number";
         return 0;
