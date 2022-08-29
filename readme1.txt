@@ -1,0 +1,1 @@
+this program takes a number as input and prints hello before printing the factorial of the number.
