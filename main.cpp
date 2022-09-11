@@ -4,6 +4,7 @@ using namespace std;
 int main(){
     int x=56,y=98;
     cout<<gcd(x,y);
+    cout<<hcf(x,y);
     print_hello();
     cout<< endl;
     cout<<"The factorial of 5 is "<< factorial(5)<< endl;
