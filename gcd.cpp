@@ -1,12 +1,11 @@
 #include "functions.h"
 #include<iostream>
 
-int gcd(int a, int b) {
-    while(a!=b) {
-        if(a>b) a-=b;
-        else b-=a;
+int gcd(int a, int c) {
+    while(a!=c) {
+        if(a>c) a-=c;
+        else c-=a;
     }
-
     return a;
 }
 
